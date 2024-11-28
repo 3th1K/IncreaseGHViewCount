@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IncreaseGithubViewCount", "src\IncreaseGithubViewCount\IncreaseGithubViewCount.csproj", "{1258CEF9-7EFA-436D-A054-5EA3AFAD2F8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{8FFF608E-7058-4392-9B4D-6FA149F0CDCF}"
+	ProjectSection(SolutionItems) = preProject
+		scripts\IncreaseGitHubViewCount.ps1 = scripts\IncreaseGitHubViewCount.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E9E6720-25F5-4481-9351-3136B2F6B2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1258CEF9-7EFA-436D-A054-5EA3AFAD2F8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1258CEF9-7EFA-436D-A054-5EA3AFAD2F8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1258CEF9-7EFA-436D-A054-5EA3AFAD2F8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1258CEF9-7EFA-436D-A054-5EA3AFAD2F8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1258CEF9-7EFA-436D-A054-5EA3AFAD2F8A} = {4E9E6720-25F5-4481-9351-3136B2F6B2CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1751B934-E291-4BE0-9A0F-6AACC8AF9562}
+	EndGlobalSection
+EndGlobal
